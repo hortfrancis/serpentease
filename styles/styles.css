@@ -6,7 +6,7 @@
     --grey: #99A1A6;
   }
 
-html {
+html, * {
     color: var(--dark-violet);
     font-family: 'Open Sans', sans-serif;
 
@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F9F9F9;
+ 
 }
 
 .header {
@@ -33,34 +34,70 @@ body {
     max-width: 200px;
 }
 
-.main {
-    margin: 20px;
+.content-area {
+    max-width: 800px;
+    margin: auto;
 }
 
-.product-image {
+.main {
+    /* margin: 20px; */
+
+}
+
+div.background-1 {
+    padding: 0.5rem;
+    background-color: var(--mid-violet);
+}
+
+p.big-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    color: var(--yellow);
+}
+
+/* .product-image {
     width: 100%;
     max-width: 500px;
     display: block;
     margin: 0 auto;
-}
+} */
 
 .product-description {
     text-align: center;
     margin: 20px 0;
 }
 
-.download-button {
+.call-to-action button {
     display: block;
-    width: 200px;
-    height: 50px;
-    margin: 20px auto;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
+
+
+
+    /* width: 200px; */
+    /* height: 50px; */
+
+    padding: 0.5em 1em;
+    margin: 2em auto;
+
+    /* color: white; */
+    /* border: none;
     text-align: center;
     line-height: 50px;
     font-size: 18px;
-    cursor: pointer;
+    cursor: pointer; */
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    border: none; 
+    border-radius: 0.5em;
+
+}
+
+.download button {
+    background-color: var(--bright-green);
+    color: var(--dark-violet);
 }
 
 .download-button:hover {
