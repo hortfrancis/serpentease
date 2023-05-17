@@ -2,36 +2,49 @@
     --bright-green: #00fdc8;
     --dark-violet: #4C3B54;
     --mid-violet: #5C5D8D;
-    --yellow: #ECD444;
-    --grey: #99A1A6;
+    --yellow: #ffd900;
+
+    --grey: #d8dee4;
   }
 
-html, * {
+body {
     color: var(--dark-violet);
     font-family: 'Open Sans', sans-serif;
-
+    margin: 0;
 }
 
-body {
-    /* font-family: Arial, sans-serif; */
+/* body {
+    /* font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #F9F9F9;
  
-}
+} */
 
 .header {
     /* background-color: #1E5631; */
 
     background-color: var(--bright-green);
 
-    color: white;
+    /* color: white; */
     padding: 20px;
     text-align: center;
 }
 
 .logo {
     max-width: 200px;
+    border-radius: 2rem;
+}
+
+/* .header h1 {
+    background-color: var(--yellow);
+    border-radius: 0.2em;
+
+} */
+
+p.tagline, p.tagline strong {
+    font-style: italic; 
+    color: var(--mid-violet);
 }
 
 .content-area {
@@ -39,14 +52,28 @@ body {
     margin: auto;
 }
 
+div.product-description {
+    padding: 2rem;
+    text-align: center;
+
+}
+
 .main {
     /* margin: 20px; */
 
 }
 
-div.background-1 {
+div.background-mid-violet {
     padding: 0.5rem;
     background-color: var(--mid-violet);
+}
+
+div.background-dark-violet {
+    background-color: var(--dark-violet);
+}
+
+div.background-grey {
+    background-color: var(--grey);
 }
 
 p.big-text {
@@ -57,6 +84,18 @@ p.big-text {
     color: var(--yellow);
 }
 
+p.big-text strong {
+    /* color: var(--bright-green); */
+    background-color: var(--yellow);
+    color: var(--dark-violet);
+    padding: 0.2em 0.4em;
+
+    border-radius: 0.2em;
+
+    font-weight: 900;
+
+}
+
 /* .product-image {
     width: 100%;
     max-width: 500px;
@@ -65,8 +104,12 @@ p.big-text {
 } */
 
 .product-description {
-    text-align: center;
-    margin: 20px 0;
+    /* margin: 20px 0; */
+}
+
+span.product-name {
+    color: var(--mid-violet);
+    /* font-style: italic; */
 }
 
 .call-to-action button {
@@ -78,7 +121,7 @@ p.big-text {
     /* height: 50px; */
 
     padding: 0.5em 1em;
-    margin: 2em auto;
+    margin: 1em auto;
 
     /* color: white; */
     /* border: none;
@@ -100,6 +143,17 @@ p.big-text {
     color: var(--dark-violet);
 }
 
-.download-button:hover {
-    background-color: #45a049;
+.call-to-action button:hover {
+    background-color: var(--yellow);
+}
+
+footer div.content-area {
+    color: white;
+    font-size: 0.75rem;
+
+    padding: 2rem;
+}
+
+footer a {
+    color: white;
 }
