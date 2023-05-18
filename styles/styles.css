@@ -138,6 +138,10 @@ span.product-name {
 
 }
 
+.call-to-action p {
+    text-align: center;
+}
+
 .download button {
     background-color: var(--bright-green);
     color: var(--dark-violet);
@@ -145,6 +149,25 @@ span.product-name {
 
 .call-to-action button:hover {
     background-color: var(--yellow);
+}
+
+div.mascot-description {
+    text-align: center;
+    color: var(--yellow);
+    font-size: 1.2rem;
+}
+
+div.product-description ul  {
+    text-align: left;
+    /* font-weight:; */
+    margin: auto;
+    max-width: 25rem;
+
+}
+
+div.product-description {
+    max-width: 800px;
+    margin: auto;
 }
 
 footer div.content-area {
