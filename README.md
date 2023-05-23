@@ -6,11 +6,14 @@ This project was carried out during [Catch22's Digital Edge](https://www.catch-2
 
 I created a web presence for the project; this can be found at: **[hortfrancis.github.ic/serpentease](https://hortfrancis.github.io/serpentease/)**
 
+The site is hosted through GitHub Pages, and deployed on the `main` Git branch for quick, public updates. 
+
 ## Technologies used
 
 - Visual Studio Code
 - Git 
-  - Github
+  - GitHub
+   - GitHub Pages
 - HTML
 - CSS
 - Midjourney 
